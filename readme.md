@@ -1,4 +1,3 @@
-
 # EN
 
 # Weather App
@@ -22,13 +21,19 @@ The Weather App is a simple PyQt application that allows users to retrieve curre
 
 ## How to Run
 
-1. Install the required libraries:
+1. Clone repo
 
    ```bash
-   pip install PyQt6 requests
+   git clone https://github.com/BigVadya/Weather-App.git
    ```
 
-2. Execute the Weather App:
+2. Install the required libraries:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Execute the Weather App:
 
    ```bash
    python main.py
@@ -46,7 +51,6 @@ The Weather App is a simple PyQt application that allows users to retrieve curre
 ### Note
 
 - For Coordinates: Enter latitude and longitude separated by a comma (e.g., "55.5, 33.3").
-
 
 ## Screenshots
 
@@ -83,13 +87,19 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Как запустить
 
-1. Установите необходимые библиотеки:
+1. Скопируй репо
 
    ```bash
-   pip install PyQt6 requests
+   git clone https://github.com/BigVadya/Weather-App.git
    ```
 
-2. Запустите Приложение Погоды:
+2. Установите необходимые библиотеки:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Запустите Приложение Погоды:
 
    ```bash
    python main.py
